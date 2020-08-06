@@ -1,3 +1,69 @@
-theme: jekyll-theme-hacker
-title: Alex Salom
-description: Tech and programming lover
+# Basic info of page and author
+title: Anjin's logbook
+subtitle: Blog, notes, and cool stuff
+name: Alex Salom
+description: Blog and notes page of a tech nerd.
+url: "https://salom24.github.io"
+baseurl: ""
+repository: salom24/salom24.github.io
+
+# Social data
+social:
+  type: Person
+  name: Alex Salom
+  links:
+    - "https://twitter.com/yourTwitter"
+    - "https://www.facebook.com/yourFacebook"
+    - "https://instagram.com/alexsalom"
+
+# Build settings and theme
+theme: "minimal-mistakes-jekyll"
+# remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+plugins:
+  - jekyll-include-cache
+
+# Collections and premalinks
+permalink: /:year/:title
+collections:
+  notes:
+    output: true
+    permalink: /:collection/:path
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+  # _notes
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
+
+# Exclude from processing.
+exclude:
+  - .jekyll-cache/
+  - .sass-cache/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+include: 
+  - _pages
+  - .htaccess

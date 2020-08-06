@@ -1,0 +1,17 @@
+Alex Salom:
+  name: Alex Salom
+  bio: Pilot and tech lover.
+  avatar: /assets/images/alex-salom-profile.jpeg
+  links:
+    - label: Email
+      icon: fas fa-fw fa-envelope
+      url: mailto:alexss94@msn.com
+    - label: Twitter
+      icon: fab fa-fw fa-twitter
+      url: https://twitter.com/asalsor
+    - label: Github
+      icon: fab fa-fw fa-github
+      url: https://github.com/salom24
+    - label: Instagram
+      icon: fab fa-fw fa-instagram
+      url: https://instagram.com/alexsalom

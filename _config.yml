@@ -49,12 +49,11 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
+      layout: post
       read_time: true
       comments: false
       share: false
-      related: true
+      related: false
 
 # Exclude from processing.
 exclude:

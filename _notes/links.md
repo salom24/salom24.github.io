@@ -1,8 +1,6 @@
 ---
 title: Useful links
-toc: true
-toc_label: Contents
-toc_icon: " "
+excerpt: List of useful and interesting links
 header:
   overlay_image: https://images.unsplash.com/photo-1542744095-291d1f67b221
   overlay_filter: 0.3
@@ -73,6 +71,7 @@ header:
 
 - [Hack This Site!](https://www.hackthissite.org/)
 - [pwnable](https://pwnable.kr/play.php)
+- [Hack the Box](https://www.hackthebox.eu/)
 
 ### Languages
 
@@ -80,8 +79,13 @@ header:
 - [Mozilla Developer](https://developer.mozilla.org/en-US/)
 - [NodeSchool](https://nodeschool.io/)
 - [tutorialspoint](http://www.tutorialspoint.com/index.htm)
+- [Vim Cheatsheet](https://vim.rtorr.com)
 
 ### Maths
 
 - [Project Euler](https://projecteuler.net/about)
+
+## Travel
+
+- [WorkAway](https://www.workaway.info)
 

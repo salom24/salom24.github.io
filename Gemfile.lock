@@ -258,7 +258,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-include-cache (~> 0.2.0)
-  minima (~> 2.5)
   minimal-mistakes-jekyll (~> 4.20)
   tzinfo (~> 1.2)
   tzinfo-data

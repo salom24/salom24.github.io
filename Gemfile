@@ -9,7 +9,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # gem "jekyll", "~> 4.1.1"
 # This is the theme for Jekyll.
-gem "minima", "~> 2.5"
+gem "minimal-mistakes-jekyll", "~> 4.20"
+# gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", group: :jekyll_plugins
@@ -29,5 +30,3 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
-
-gem "minimal-mistakes-jekyll", "~> 4.20"
